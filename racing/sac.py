@@ -61,17 +61,42 @@ class SACAgent(nn.Module):
         return self.actor(obs, deterministic)
 
 
+class StateActor(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.net = nn.Sequential(nn.Linear(34,128), nn.Tanh(), nn.Linear(128,128), nn.Tanh(), nn.Linear(128,4))
+    def forward(self, obs, deterministic=False):
+        mean, logstd = self.net(obs.float()).chunk(2, -1)
+        dist = Normal(mean, logstd.clamp(-5,2).exp())
+        z = mean if deterministic else dist.rsample()
+        logp = (dist.log_prob(z)-2*(math.log(2)-z-F.softplus(-2*z))).sum(-1)
+        return z.tanh(), z, logp, -logp
+
+class StateQ(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.net = nn.Sequential(nn.Linear(36,128), nn.ReLU(), nn.Linear(128,128), nn.ReLU(), nn.Linear(128,1))
+    def forward(self, obs, action):
+        return self.net(torch.cat((obs.float(),action),-1)).squeeze(-1)
+
+class StateSACAgent(SACAgent):
+    def __init__(self):
+        nn.Module.__init__(self)
+        self.architecture, self.context_length = "state", 1
+        self.actor, self.q1, self.q2 = StateActor(), StateQ(), StateQ()
+
+
 def terminal_observations(next_obs, infos):
     """Store the final state, never the auto-reset state, at either boundary."""
     return np.stack([info.get("terminal_observation", obs) for obs, info in zip(next_obs, infos)])
 
 
 class ReplayBuffer:
-    def __init__(self, capacity, shape=(4, 64, 64)):
+    def __init__(self, capacity, shape=(4, 64, 64), action_dim=3, dtype=np.uint8):
         self.capacity, self.size, self.pos = capacity, 0, 0
-        self.obs = np.empty((capacity, *shape), np.uint8)
+        self.obs = np.empty((capacity, *shape), dtype)
         self.next_obs = np.empty_like(self.obs)
-        self.actions = np.empty((capacity, 3), np.float32)
+        self.actions = np.empty((capacity, action_dim), np.float32)
         self.rewards = np.empty(capacity, np.float32)
         self.terminated = np.empty(capacity, np.bool_)
 
@@ -165,7 +190,7 @@ def bellman_target(rewards, terminated, next_q, next_logp, alpha, gamma):
 class SACLearner:
     def __init__(self, args):
         self.args = args
-        self.agent = SACAgent(args.sac_arch, args.sac_context).to(args.device)
+        self.agent = (StateSACAgent() if args.unified_io else SACAgent(args.sac_arch, args.sac_context)).to(args.device)
         self.targets = nn.ModuleList([copy.deepcopy(self.agent.q1), copy.deepcopy(self.agent.q2)])
         self.targets.requires_grad_(False)
         self.qparams = list(self.agent.q1.parameters()) + list(self.agent.q2.parameters())
@@ -265,6 +290,10 @@ def train(args, parser):
     torch.backends.cudnn.benchmark = False
     config = vars(args).copy()
     env_config = dict(repeat=4, stack=4, size=64, completion_mode=args.completion_mode)
+    if args.unified_io:
+        env_config.update(recurrent=True, observation_mode="state", control_mode=args.rp_control,
+                          speed_scale=args.rp_speed_scale, residual_scale=args.rp_residual_scale,
+                          controller_profile=args.rp_controller, finish_assist=args.rp_finish_assist)
     # Load on CPU: replay must not consume GPU memory on restore.
     ck = torch.load(args.resume, map_location="cpu", weights_only=False) if args.resume else None
     if ck is not None:
@@ -278,12 +307,12 @@ def train(args, parser):
     learner = SACLearner(args)
     recurrent = args.sac_arch == "gru"
     replay = (SequenceReplayBuffer(args.sac_buffer_size, args.num_envs, args.sac_context)
-              if recurrent else ReplayBuffer(args.sac_buffer_size))
+              if recurrent else ReplayBuffer(args.sac_buffer_size, (34,), 2, np.float32) if args.unified_io else ReplayBuffer(args.sac_buffer_size))
     save_json(run / "model_info.json", dict(architecture=args.sac_arch,
               parameters=sum(p.numel() for p in learner.agent.parameters()),
               context_length=learner.agent.context_length))
     steps, frames, train_seconds, eval_seconds = 0, 0, 0., 0.
-    best = -float("inf")
+    best = (-float("inf"),)*4 if args.unified_io else -float("inf")
     if ck is not None:
         learner.agent.load_state_dict(ck["model"])
         learner.targets.load_state_dict(ck["targets"])
@@ -322,15 +351,18 @@ def train(args, parser):
         tick = time.perf_counter()
         rows = evaluate(learner.agent, args.device, env_config,
                         range(args.eval_seed_start, args.eval_seed_start + args.eval_episodes))
-        sm = summary(rows)
+        from .recurrent_ppo import completion_summary, selection_key
+        sm = completion_summary(rows) if args.unified_io else summary(rows)
         eval_seconds += time.perf_counter() - tick
         append_csv(run / "validation.csv", dict(steps=steps, frames=frames, train_seconds=train_seconds, **sm))
         for row in rows:
             append_csv(run / "validation_episodes.csv", dict(steps=steps, **row))
         for key, value in sm.items():
-            writer.add_scalar("validation/"+key, value, steps)
-        if sm["mean_return"] > best:
-            best = sm["mean_return"]
+            if isinstance(value, (int, float)):
+                writer.add_scalar("validation/"+key, value, steps)
+        key = selection_key(sm) if args.unified_io else sm["mean_return"]
+        if key > best:
+            best = key
             checkpoint("best", full=False)
         print(f"SAC validation steps={steps} return={sm['mean_return']:.1f}", flush=True)
 
@@ -347,13 +379,16 @@ def train(args, parser):
             block_steps, block_updates, sums = 0, 0, {}
             for _ in range(min(args.rollout, (args.steps-steps)//args.num_envs)):
                 if steps < args.sac_learning_starts:
-                    actions = np.random.uniform([-1, 0, 0], [1, 1, 1], (args.num_envs, 3)).astype(np.float32)
+                    actions = (np.random.uniform(-1, 1, (args.num_envs, 2)) if args.unified_io else np.random.uniform([-1, 0, 0], [1, 1, 1], (args.num_envs, 3))).astype(np.float32)
                 else:
                     with torch.no_grad():
                         policy_obs = history.data if recurrent else obs
                         actions = learner.agent.action(torch.as_tensor(policy_obs, device=args.device))[0].cpu().numpy()
                 next_obs, rewards, term, trunc, infos = vec.step(actions)
-                replay.add(obs, actions, rewards * args.reward_scale, terminal_observations(next_obs, infos), term, term | trunc)
+                scaled_rewards = rewards * args.reward_scale
+                if args.unified_io:
+                    scaled_rewards += np.array([args.rp_completion_bonus * int(i.get("episode_metrics", {}).get("completed", False)) - args.rp_offroad_penalty * i["offroad_fraction_sum"] for i in infos])
+                replay.add(obs, actions, scaled_rewards, terminal_observations(next_obs, infos), term, term | trunc)
                 if recurrent:
                     history.advance(next_obs, term | trunc)
                 obs = next_obs

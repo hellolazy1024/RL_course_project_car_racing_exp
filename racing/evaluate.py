@@ -113,12 +113,12 @@ def main():
     checkpoint_completion_mode = env_config.get("completion_mode", "original")
     env_config["completion_mode"] = args.completion_mode or checkpoint_completion_mode
     torch.set_num_threads(2)
-    if ckpt["config"]["algo"] == "recurrent-ppo":
+    if ckpt["config"]["algo"] == "recurrent-ppo" or (ckpt["config"]["algo"] == "ppo" and ckpt["config"].get("unified_io")):
         from .recurrent_ppo import agent_from_config
         agent = agent_from_config(ckpt["config"]).to(args.device)
     elif ckpt["config"]["algo"] == "sac":
-        from .sac import SACAgent
-        agent = SACAgent(ckpt["config"].get("sac_arch", "baseline"), ckpt["config"].get("sac_context", 8)).to(args.device)
+        from .sac import SACAgent, StateSACAgent
+        agent = (StateSACAgent() if ckpt["config"].get("unified_io") else SACAgent(ckpt["config"].get("sac_arch", "baseline"), ckpt["config"].get("sac_context", 8))).to(args.device)
     else:
         agent = Agent(with_critic=ckpt["config"]["algo"] not in ("grpo", "grpo-c"), road_state=ckpt["env_config"].get("road_state", False), road_scale=ckpt["config"].get("grpo_c_road_scale", .25)).to(args.device)
     agent.load_state_dict(ckpt["model"])

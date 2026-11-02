@@ -132,6 +132,8 @@ def validate_restore(ck, config, branch=False):
 def parser():
     p = argparse.ArgumentParser()
     p.add_argument("--algo", choices=["a2c", "ppo", "vpg50", "grpo", "grpo-c", "sac", "recurrent-ppo"], required=True)
+    p.add_argument("--unified-io", action="store_true")
+    p.add_argument("--rp-offroad-assist", action="store_true")
     p.add_argument("--rp-observation", choices=["pixels", "state"], default="pixels")
     p.add_argument("--rp-control", choices=["direct", "residual", "adaptive"], default="direct")
     p.add_argument("--rp-controller", choices=["v1", "v2"], default="v1")
@@ -205,7 +207,7 @@ def parser():
     p.add_argument("--max-grad-norm", type=float, default=1.)
     p.add_argument("--critic-grad-norm", type=float, default=0., help="0 disables critic clipping")
     p.add_argument("--eval-every", type=int, default=50_000)
-    p.add_argument("--eval-episodes", type=int, default=10)
+    p.add_argument("--eval-episodes", type=int, default=100)
     p.add_argument("--eval-seed-start", type=int, default=1_000_000)
     p.add_argument("--out", default="runs")
     p.add_argument("--name")
@@ -219,7 +221,7 @@ def parser():
 def main():
     p = parser()
     args = p.parse_args()
-    if args.algo == "recurrent-ppo":
+    if args.algo == "recurrent-ppo" or (args.algo == "ppo" and args.unified_io):
         from .recurrent_ppo import train
         return train(args, p)
     if (args.grpo_c_road_state or args.grpo_c_offroad_penalty) and args.algo != "grpo-c":

@@ -70,7 +70,7 @@ def controls(command):
 class RecurrentRacing(Racing):
     def __init__(self, observation_mode="state", control_mode="direct",
                  speed_scale=1.0, residual_scale=.2, controller_profile="v1",
-                 finish_assist=False, **kwargs):
+                 finish_assist=False, offroad_assist=False, **kwargs):
         if observation_mode not in ("pixels", "state"):
             raise ValueError("observation_mode must be pixels or state")
         if control_mode not in ("direct", "residual", "adaptive"):
@@ -84,6 +84,8 @@ class RecurrentRacing(Racing):
         self.controller_profile = controller_profile
         if finish_assist and observation_mode != "state":
             raise ValueError("Finish assistance requires explicitly privileged state")
+        self.offroad_assist = offroad_assist
+        self.recovery_active = False
         self.finish_assist = finish_assist
         self.assist_active = False
         self.previous_command = np.zeros(2, np.float32)
@@ -115,6 +117,8 @@ class RecurrentRacing(Racing):
     def reset(self, **kwargs):
         self.previous_command = np.zeros(2, np.float32)
         self.assist_active = False
+        self.recovery_active = False
+        self.recovery_decisions = 0
         self._resetting = True
         try:
             return super().reset(**kwargs)
@@ -173,6 +177,15 @@ class RecurrentRacing(Racing):
                 # Physical driving only: never modify contacts, tile counts,
                 # rewards, termination flags or the original lap finish gate.
                 command, _ = controller(base, speed_scale=1.2, profile="v1")
+        if self.offroad_assist:
+            base = self.unwrapped
+            contact = sum(bool(w.tiles) for w in base.car.wheels)
+            if contact == 0:
+                self.recovery_active = True
+            elif contact == 4:
+                self.recovery_active = False
+            if self.recovery_active:
+                command, _ = controller(base, speed_scale=.65, profile="v1")
         self.previous_command = command.astype(np.float32)
         obs, reward, term, trunc, info = super().step(controls(command))
         if self.observation_mode == "pixels" and (term or trunc) and self._render_phase % self.repeat:
@@ -182,6 +195,10 @@ class RecurrentRacing(Racing):
             self.unwrapped.state = final_pixels
             self.frames[-1] = self.image(final_pixels)
             obs = self.observation()
+        self.recovery_decisions += int(self.recovery_active)
+        if "episode_metrics" in info:
+            info["episode_metrics"]["recovery_decisions"] = self.recovery_decisions
+        info["offroad_assist_active"] = self.recovery_active
         info["applied_command"] = self.previous_command.copy()
         return obs, reward, term, trunc, info
 

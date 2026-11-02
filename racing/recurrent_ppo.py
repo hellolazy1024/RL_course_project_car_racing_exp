@@ -99,8 +99,19 @@ class RecurrentAgent(nn.Module):
         return tuple(x[0] for x in result[:-1]) + (result[-1],)
 
 
+class FeedForwardAgent(RecurrentAgent):
+    """Memory-free PPO using the same policy likelihood and update implementation."""
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        del self.lstm
+
+    def features(self, obs, state, starts):
+        return self.encoder(obs.float()), state
+
+
 def agent_from_config(config):
-    return RecurrentAgent(config["rp_observation"], config["rp_hidden"],
+    cls = FeedForwardAgent if config.get("algo") == "ppo" and config.get("unified_io") else RecurrentAgent
+    return cls(config["rp_observation"], config["rp_hidden"],
                           config["rp_split_head"], config["rp_control"])
 
 
@@ -248,6 +259,7 @@ def train(args, parser):
                       control_mode=args.rp_control, speed_scale=args.rp_speed_scale,
                       controller_profile=args.rp_controller,
                       finish_assist=args.rp_finish_assist,
+                      offroad_assist=args.rp_offroad_assist,
                       residual_scale=args.rp_residual_scale, completion_mode=args.completion_mode)
     out = Path(args.out) / (args.name or f"recurrent-ppo_s{args.seed}")
     out.mkdir(parents=True, exist_ok=False)
