@@ -1,0 +1,18 @@
+{
+  "episodes": 300,
+  "mean_return": 838.0443556548287,
+  "std_return": 208.62462397683495,
+  "median_return": 905.6824324324151,
+  "min_return": 116.61721068249767,
+  "max_return": 933.2999999999882,
+  "completion_rate": 0.8533333333333334,
+  "mean_coverage": 0.9255123556548412,
+  "score_ge_900_rate": 0.63,
+  "mean_finish_seconds": 17.0628125,
+  "median_finish_seconds": 17.08,
+  "penalized_seconds": 20.426933333333334,
+  "completion_wilson95": [
+    0.8088365903800316,
+    0.888895385754902
+  ]
+}

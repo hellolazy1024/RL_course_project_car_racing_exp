@@ -1,0 +1,11 @@
+{
+  "role": "Secondary candidate; not selected by pre-test validation rule",
+  "source": "D:\\Desktop\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\best.pt",
+  "sha256": "17168a391643dae752b3d1e2a044e50e9d6db2a05537c32fd73f05c275e7d222",
+  "additional_training_decisions": 0,
+  "confirmation_completion": 0.98,
+  "test_completion": 0.99,
+  "test_mean_finish_seconds": 14.735353535353536,
+  "note": "Retained without replacing the frozen primary model; finite validation and test sets can rank candidates differently.",
+  "usage": "python -m racing.evaluate --checkpoint delivery/finish_assist_candidate.pt --episodes 100 --seed-start 5000000 --out finish_assist_new_evaluation"
+}

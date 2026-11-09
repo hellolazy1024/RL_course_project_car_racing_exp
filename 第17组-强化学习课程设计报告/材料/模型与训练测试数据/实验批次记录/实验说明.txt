@@ -1,0 +1,10 @@
+实验协议（2026-10-28）
+工程实际位置 D:/Desktop/RL总结/RL_project。
+四组：无记忆PPO、SAC、Recurrent PPO、Recurrent PPO+离轨恢复；每组种子0/1/2，196608决策。
+统一34维特权状态、二维adaptive控制、v2控制器、速度倍率2.2、转向残差0.2、lap95。adaptive的第二维调节目标速度，不是直接油门；实际踏板互斥。所有组享有相同基础控制器，不能与旧像素实验直接归因比较。
+统一训练奖励：raw reward*0.01 + 完赛5 - offroad_fraction_sum*0.02。
+验证每32768决策，100条固定赛道1100000..1100099；独立保留测试1200000..1200299，不参与选模。正式各组按完赛率、成功时间、覆盖率、回报顺序选模。100条仍需结合置信区间解读。
+短训练检查使用2条赛道和1024决策，不参与实验结论。SAC短训练在完赛优先选模补丁前完成；正式SAC使用补丁后版本。
+新增离轨恢复：四轮无接触时触发，四轮接触时退出，使用v1控制器和0.65速度倍率；不修改物理、完赛条件或奖励。recovery_decisions记录每回合介入决策数。
+数据：每组config.json、validation.csv、validation_episodes.csv、train_episodes.csv、updates.csv、best/last.pt、finished.json。计划见plan.json，调度状态见status.json，命令见commands.jsonl，输出日志按组命名。source为正式训练冻结代码，source_manifest.json为SHA256。
+后台队列run_unified.py顺序执行，非零退出即停止，避免继续产生无效结果。完成预算并不代表收敛。本轮暂未运行独立测试，也未得出收益结论。

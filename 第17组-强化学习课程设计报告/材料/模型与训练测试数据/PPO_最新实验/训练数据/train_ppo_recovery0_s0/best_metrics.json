@@ -1,0 +1,19 @@
+{
+  "steps": 32768,
+  "episodes": 100,
+  "mean_return": 857.1433257342793,
+  "std_return": 174.75930626859932,
+  "median_return": 904.6356009900624,
+  "min_return": 119.21921921922461,
+  "max_return": 929.5999999999921,
+  "completion_rate": 0.92,
+  "mean_coverage": 0.941925325734292,
+  "score_ge_900_rate": 0.58,
+  "mean_finish_seconds": 16.691739130434783,
+  "median_finish_seconds": 16.59,
+  "penalized_seconds": 18.5564,
+  "completion_wilson95": [
+    0.8500173312059693,
+    0.9589070305141891
+  ]
+}

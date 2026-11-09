@@ -1,0 +1,2 @@
+steps,episodes,mean_return,std_return,median_return,min_return,max_return,completion_rate,mean_coverage,score_ge_900_rate,mean_finish_seconds,median_finish_seconds,penalized_seconds
+327680,10,922.6275481363582,9.052581548650123,924.2499999999902,907.5297297297135,935.5999999999849,1.0,0.9948275481363715,1.0,14.440000000000001,14.719999999999999,14.440000000000001

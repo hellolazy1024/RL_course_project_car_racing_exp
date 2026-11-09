@@ -1,0 +1,15 @@
+{
+  "parameters": 153477,
+  "hidden_size": 128,
+  "sequence_length": 32,
+  "privileged_state": true,
+  "env_config": {
+    "recurrent": true,
+    "observation_mode": "state",
+    "control_mode": "direct",
+    "speed_scale": 1.0,
+    "controller_profile": "v1",
+    "residual_scale": 0.2,
+    "completion_mode": "lap95"
+  }
+}

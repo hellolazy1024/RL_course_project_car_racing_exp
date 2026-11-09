@@ -1,0 +1,147 @@
+[
+  {
+    "id": "train_ppo_recovery0_s0",
+    "group": "ppo",
+    "seed": 0,
+    "checkpoint": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\best.pt",
+    "steps": 32768,
+    "train_dir": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0",
+    "sha256": "ea5acaf0b65d37902b1173e67ad3f2cd6c49ccbd99d717c88850ea7801d27ff4",
+    "env": {
+      "recurrent": true,
+      "observation_mode": "state",
+      "control_mode": "adaptive",
+      "speed_scale": 2.2,
+      "controller_profile": "v2",
+      "finish_assist": false,
+      "offroad_assist": false,
+      "residual_scale": 0.2,
+      "completion_mode": "lap95"
+    }
+  },
+  {
+    "id": "train_ppo_recovery0_s1",
+    "group": "ppo",
+    "seed": 1,
+    "checkpoint": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\best.pt",
+    "steps": 98304,
+    "train_dir": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1",
+    "sha256": "166d955fca4626109a01289762d5945a654dbfbfdf1939f0abb62bf3c20d3429",
+    "env": {
+      "recurrent": true,
+      "observation_mode": "state",
+      "control_mode": "adaptive",
+      "speed_scale": 2.2,
+      "controller_profile": "v2",
+      "finish_assist": false,
+      "offroad_assist": false,
+      "residual_scale": 0.2,
+      "completion_mode": "lap95"
+    }
+  },
+  {
+    "id": "train_ppo_recovery0_s2",
+    "group": "ppo",
+    "seed": 2,
+    "checkpoint": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\best.pt",
+    "steps": 65536,
+    "train_dir": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2",
+    "sha256": "c620f4b0056d213b2d4b6bb1746a6c8d353da060b288ef4c066bbce2a070056e",
+    "env": {
+      "recurrent": true,
+      "observation_mode": "state",
+      "control_mode": "adaptive",
+      "speed_scale": 2.2,
+      "controller_profile": "v2",
+      "finish_assist": false,
+      "offroad_assist": false,
+      "residual_scale": 0.2,
+      "completion_mode": "lap95"
+    }
+  },
+  {
+    "id": "train_sac_recovery0_s0",
+    "group": "sac",
+    "seed": 0,
+    "checkpoint": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\best.pt",
+    "steps": 163840,
+    "train_dir": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0",
+    "sha256": "55194a137629b378d2cc4f09df6ac294f94ed48b282ea6ba809767c6edec5c89",
+    "env": {
+      "repeat": 4,
+      "stack": 4,
+      "size": 64,
+      "completion_mode": "lap95",
+      "recurrent": true,
+      "observation_mode": "state",
+      "control_mode": "adaptive",
+      "speed_scale": 2.2,
+      "residual_scale": 0.2,
+      "controller_profile": "v2",
+      "finish_assist": false
+    }
+  },
+  {
+    "id": "train_sac_recovery0_s1",
+    "group": "sac",
+    "seed": 1,
+    "checkpoint": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\best.pt",
+    "steps": 98304,
+    "train_dir": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1",
+    "sha256": "0519bccc5f0b2d18ec925272963b720cd131e30bc1c5e27ae3572cad2dc7dbc3",
+    "env": {
+      "repeat": 4,
+      "stack": 4,
+      "size": 64,
+      "completion_mode": "lap95",
+      "recurrent": true,
+      "observation_mode": "state",
+      "control_mode": "adaptive",
+      "speed_scale": 2.2,
+      "residual_scale": 0.2,
+      "controller_profile": "v2",
+      "finish_assist": false
+    }
+  },
+  {
+    "id": "train_sac_recovery0_s2",
+    "group": "sac",
+    "seed": 2,
+    "checkpoint": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\best.pt",
+    "steps": 131072,
+    "train_dir": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2",
+    "sha256": "1f92f02ae23398b7f2b1c48576bae16da15123d3ef5d6439c52291ee544dd9bd",
+    "env": {
+      "repeat": 4,
+      "stack": 4,
+      "size": 64,
+      "completion_mode": "lap95",
+      "recurrent": true,
+      "observation_mode": "state",
+      "control_mode": "adaptive",
+      "speed_scale": 2.2,
+      "residual_scale": 0.2,
+      "controller_profile": "v2",
+      "finish_assist": false
+    }
+  },
+  {
+    "id": "finish",
+    "group": "finish",
+    "seed": 0,
+    "checkpoint": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\delivery\\finish_assist_candidate.pt",
+    "steps": 327680,
+    "train_dir": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0",
+    "sha256": "17168a391643dae752b3d1e2a044e50e9d6db2a05537c32fd73f05c275e7d222",
+    "env": {
+      "recurrent": true,
+      "observation_mode": "state",
+      "control_mode": "direct",
+      "speed_scale": 1.0,
+      "controller_profile": "v1",
+      "residual_scale": 0.2,
+      "completion_mode": "lap95",
+      "finish_assist": true
+    }
+  }
+]

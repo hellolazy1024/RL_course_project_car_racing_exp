@@ -1,0 +1,896 @@
+[
+  {
+    "path": "PPO_最新实验/模型/seed0/best.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\best.pt",
+    "bytes": 282791,
+    "sha256": "ea5acaf0b65d37902b1173e67ad3f2cd6c49ccbd99d717c88850ea7801d27ff4"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed0/best_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\PPO\\seed0\\best_config.json",
+    "bytes": 2097,
+    "sha256": "4f176a4906a85c67a431a205e38109c009fa41664d2e16de3c55a1d883679ab7"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed0/last.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\last.pt",
+    "bytes": 282855,
+    "sha256": "7b16496a1c9920fc91dc9253cb63af772bac7b10bd49996e56e963fc110c3964"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed0/last_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\PPO\\seed0\\last_config.json",
+    "bytes": 2097,
+    "sha256": "4f176a4906a85c67a431a205e38109c009fa41664d2e16de3c55a1d883679ab7"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed1/best.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\best.pt",
+    "bytes": 282855,
+    "sha256": "166d955fca4626109a01289762d5945a654dbfbfdf1939f0abb62bf3c20d3429"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed1/best_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\PPO\\seed1\\best_config.json",
+    "bytes": 2097,
+    "sha256": "74e0fe58ae20e60530f48088e2c574cdc4a5a2695d4ed4ce51df1530f8a15579"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed1/last.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\last.pt",
+    "bytes": 282919,
+    "sha256": "5a9bee27292592e17ef44a72314db4e527003ef29cbe1d97584120b5b9d37be9"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed1/last_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\PPO\\seed1\\last_config.json",
+    "bytes": 2097,
+    "sha256": "74e0fe58ae20e60530f48088e2c574cdc4a5a2695d4ed4ce51df1530f8a15579"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed2/best.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\best.pt",
+    "bytes": 282855,
+    "sha256": "c620f4b0056d213b2d4b6bb1746a6c8d353da060b288ef4c066bbce2a070056e"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed2/best_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\PPO\\seed2\\best_config.json",
+    "bytes": 2097,
+    "sha256": "edd30c2fbede4c1aaa595bbc5007c15f90b894d274e3b94b8431b0348c1fce50"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed2/last.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\last.pt",
+    "bytes": 282919,
+    "sha256": "9b86ef34b2d1d6c90df1c04550ed3424c3237fb725265a90329bd703d5502c40"
+  },
+  {
+    "path": "PPO_最新实验/模型/seed2/last_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\PPO\\seed2\\last_config.json",
+    "bytes": 2097,
+    "sha256": "edd30c2fbede4c1aaa595bbc5007c15f90b894d274e3b94b8431b0348c1fce50"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed0/best.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\best.pt",
+    "bytes": 265376,
+    "sha256": "55194a137629b378d2cc4f09df6ac294f94ed48b282ea6ba809767c6edec5c89"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed0/best_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\SAC\\seed0\\best_config.json",
+    "bytes": 2097,
+    "sha256": "c328ae45d64d53e1a8e9414eb0ce043caafad353c78223437ab69ad6aa6f3ce5"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed0/last.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\last.pt",
+    "bytes": 21125707,
+    "sha256": "02ed9c5ecd50e0ffa9d92b3931394991e9f1345068e32fd5ff3d445366717ccb"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed0/last_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\SAC\\seed0\\last_config.json",
+    "bytes": 2097,
+    "sha256": "c328ae45d64d53e1a8e9414eb0ce043caafad353c78223437ab69ad6aa6f3ce5"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed1/best.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\best.pt",
+    "bytes": 265376,
+    "sha256": "0519bccc5f0b2d18ec925272963b720cd131e30bc1c5e27ae3572cad2dc7dbc3"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed1/best_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\SAC\\seed1\\best_config.json",
+    "bytes": 2097,
+    "sha256": "04fd5f7f227c57b6eba1706f84c11cec3d31252a8d590abd4d4ed156e8d8872a"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed1/last.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\last.pt",
+    "bytes": 21212939,
+    "sha256": "698a0219783f2cf06419f5ff9b45a54f14b07f7806112586e275d08156d49a79"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed1/last_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\SAC\\seed1\\last_config.json",
+    "bytes": 2097,
+    "sha256": "04fd5f7f227c57b6eba1706f84c11cec3d31252a8d590abd4d4ed156e8d8872a"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed2/best.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\best.pt",
+    "bytes": 265376,
+    "sha256": "1f92f02ae23398b7f2b1c48576bae16da15123d3ef5d6439c52291ee544dd9bd"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed2/best_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\SAC\\seed2\\best_config.json",
+    "bytes": 2097,
+    "sha256": "6602ef3e81fd2b9d412e1ba57271237912729358617213e5ed1aa7f6cbea0b52"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed2/last.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\last.pt",
+    "bytes": 21161483,
+    "sha256": "3687423110d9562417ec9eb8f9104e4bf11af741ec4f327666a50f7311128358"
+  },
+  {
+    "path": "SAC_最新实验/模型/seed2/last_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\SAC\\seed2\\last_config.json",
+    "bytes": 2097,
+    "sha256": "6602ef3e81fd2b9d412e1ba57271237912729358617213e5ed1aa7f6cbea0b52"
+  },
+  {
+    "path": "RPPO_终点辅助控制/模型/seed0/best.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\best.pt",
+    "bytes": 633718,
+    "sha256": "17168a391643dae752b3d1e2a044e50e9d6db2a05537c32fd73f05c275e7d222"
+  },
+  {
+    "path": "RPPO_终点辅助控制/模型/seed0/best_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\RPPO_finish\\seed0\\best_config.json",
+    "bytes": 2091,
+    "sha256": "c92dff419f834233349c9e2edbcdbd26a3da54a82b9be3578601f525ef64abc3"
+  },
+  {
+    "path": "RPPO_终点辅助控制/模型/seed0/last.pt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\last.pt",
+    "bytes": 633718,
+    "sha256": "04c561b97667bc6196fdaa04ff493645473a67fe704bc17a47b3e45c8721928b"
+  },
+  {
+    "path": "RPPO_终点辅助控制/模型/seed0/last_config.json",
+    "source": "D:\\Desktop\\RL总结\\强化学习课程项目_完整交付\\models\\RPPO_finish\\seed0\\last_config.json",
+    "bytes": 2091,
+    "sha256": "c92dff419f834233349c9e2edbcdbd26a3da54a82b9be3578601f525ef64abc3"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/best_metrics.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\best_metrics.json",
+    "bytes": 522,
+    "sha256": "9499491d89b4cb7303671e4a902bfd0affd0b9872578c164fc1de17affd5e135"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/config.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\config.json",
+    "bytes": 2097,
+    "sha256": "4f176a4906a85c67a431a205e38109c009fa41664d2e16de3c55a1d883679ab7"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/finished.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\finished.json",
+    "bytes": 210,
+    "sha256": "c04a1858bc913519c08549e38e795463d87c9253970be719ff93270ddc6aab57"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/invocation.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\invocation.json",
+    "bytes": 1365,
+    "sha256": "f631e552d949e07b83fb7ea53b6fc46ab8e692fd67493484d9476e94c587af38"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/model_info.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\model_info.json",
+    "bytes": 398,
+    "sha256": "7a8d492c8b35b765324e1f59d7f234394b47f49a3732afa4f9a28ef042f41977"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/provenance.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\provenance.json",
+    "bytes": 2554,
+    "sha256": "14abfdf1052fa7af3fcd33e97d7abb18aaf1caeef3add9a38cba16b59e76d6ec"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/train_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\train_episodes.csv",
+    "bytes": 59489,
+    "sha256": "ec5b918d9d74cd9f7135480e77cd019f5e89700757a3676e17eeeb6feac35640"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/updates.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\updates.csv",
+    "bytes": 30372,
+    "sha256": "9d35933999c6939ddd733858b8671b5ab8163dd53488bee116e6900c026e95e5"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/validation.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\validation.csv",
+    "bytes": 1541,
+    "sha256": "09efd3b8d1265620f999c7d289cf39f97f6b921f588c1d38de448ca2cb454a6e"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s0/validation_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0\\validation_episodes.csv",
+    "bytes": 55532,
+    "sha256": "3fcd1f27316a27ff290c43094bd18ce4ab6e6e9bb7da1eb4bf7c86c09776a3ab"
+  },
+  {
+    "path": "PPO_最新实验/训练日志/train_ppo_recovery0_s0.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0.log",
+    "bytes": 3439,
+    "sha256": "9298cfd6b9cfece0bf6fc6cc8c0cc63b7278dd700424a78a5fd3d0eed01f8ee8"
+  },
+  {
+    "path": "PPO_最新实验/训练日志/train_ppo_recovery0_s0.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s0.log",
+    "bytes": 3439,
+    "sha256": "9298cfd6b9cfece0bf6fc6cc8c0cc63b7278dd700424a78a5fd3d0eed01f8ee8"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/best_metrics.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\best_metrics.json",
+    "bytes": 532,
+    "sha256": "ca59eb4cfae4c6ea3935ffd149dc9284608b5d5401337c5a99e4407dfb920e4c"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/config.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\config.json",
+    "bytes": 2097,
+    "sha256": "74e0fe58ae20e60530f48088e2c574cdc4a5a2695d4ed4ce51df1530f8a15579"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/finished.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\finished.json",
+    "bytes": 210,
+    "sha256": "cc5ba2bab7f3c6b018b170e1c604880a37759d2d2f5b74dfa7cdf66e33be42c7"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/invocation.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\invocation.json",
+    "bytes": 1365,
+    "sha256": "e0e8eb10f331407e4b05a8a7990e1934d08e035edb146f4874617a3e028e3124"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/model_info.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\model_info.json",
+    "bytes": 398,
+    "sha256": "7a8d492c8b35b765324e1f59d7f234394b47f49a3732afa4f9a28ef042f41977"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/provenance.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\provenance.json",
+    "bytes": 2554,
+    "sha256": "14abfdf1052fa7af3fcd33e97d7abb18aaf1caeef3add9a38cba16b59e76d6ec"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/train_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\train_episodes.csv",
+    "bytes": 58791,
+    "sha256": "07acfb960590ed67d3acacf15914a1296da69da1e9b2554ec0b136db7092f5a8"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/updates.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\updates.csv",
+    "bytes": 30286,
+    "sha256": "ccd867f003b9e78577b3025e1a48b2d61a4a261f66a188e7e91fa11aa0bb4757"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/validation.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\validation.csv",
+    "bytes": 1542,
+    "sha256": "2e9d50357c00001a24ffea18dbc7e00f7364515b5f9155382097a2c5c6784863"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s1/validation_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1\\validation_episodes.csv",
+    "bytes": 54912,
+    "sha256": "81edd14b9c8794f601513f1aec949e62130b5c58c71c5cd0762bed2aea03087b"
+  },
+  {
+    "path": "PPO_最新实验/训练日志/train_ppo_recovery0_s1.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1.log",
+    "bytes": 3440,
+    "sha256": "dd4eab1d17191de239b844fad8216b62450ef835e43154b9f1affa75285fbd13"
+  },
+  {
+    "path": "PPO_最新实验/训练日志/train_ppo_recovery0_s1.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s1.log",
+    "bytes": 3440,
+    "sha256": "dd4eab1d17191de239b844fad8216b62450ef835e43154b9f1affa75285fbd13"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/best_metrics.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\best_metrics.json",
+    "bytes": 522,
+    "sha256": "c9f487c373b26028fd1bea1c9371d82a3431e680aa450d22658dced6da4d9887"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/config.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\config.json",
+    "bytes": 2097,
+    "sha256": "edd30c2fbede4c1aaa595bbc5007c15f90b894d274e3b94b8431b0348c1fce50"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/finished.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\finished.json",
+    "bytes": 210,
+    "sha256": "dd4fccd254ea184f96bd23e16676b8dc2614d2ba929f01da1e065087672634fd"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/invocation.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\invocation.json",
+    "bytes": 1365,
+    "sha256": "1befa76a21236c6659edf65c96621bc3394debf5134d5bc9f835498e4590e9c5"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/model_info.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\model_info.json",
+    "bytes": 398,
+    "sha256": "7a8d492c8b35b765324e1f59d7f234394b47f49a3732afa4f9a28ef042f41977"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/provenance.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\provenance.json",
+    "bytes": 2554,
+    "sha256": "14abfdf1052fa7af3fcd33e97d7abb18aaf1caeef3add9a38cba16b59e76d6ec"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/train_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\train_episodes.csv",
+    "bytes": 60591,
+    "sha256": "608865bdeb0e7838d21031a78801e78f88ef22435c0355fe50cb10f20f68cec0"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/updates.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\updates.csv",
+    "bytes": 30280,
+    "sha256": "3052d2a9613b5b332647998d306d4e8c065deda934ba9d97d59d7f3d79cc9dbb"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/validation.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\validation.csv",
+    "bytes": 1513,
+    "sha256": "91c67a6a8f70c4fab96d15c8d6f7ce857486d99e81195c6bcebc7be0d2efc9d0"
+  },
+  {
+    "path": "PPO_最新实验/训练数据/train_ppo_recovery0_s2/validation_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2\\validation_episodes.csv",
+    "bytes": 54859,
+    "sha256": "c10a025ca64003378d8768c0310fd901465b1a3b971736c630984b861b6d7bd4"
+  },
+  {
+    "path": "PPO_最新实验/训练日志/train_ppo_recovery0_s2.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2.log",
+    "bytes": 3409,
+    "sha256": "3e3924169c206de3f277a9f2d7c12f2d108eddf2d5d2c467dcc8b9b5d714a5e4"
+  },
+  {
+    "path": "PPO_最新实验/训练日志/train_ppo_recovery0_s2.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_ppo_recovery0_s2.log",
+    "bytes": 3409,
+    "sha256": "3e3924169c206de3f277a9f2d7c12f2d108eddf2d5d2c467dcc8b9b5d714a5e4"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s0/config.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\config.json",
+    "bytes": 2097,
+    "sha256": "c328ae45d64d53e1a8e9414eb0ce043caafad353c78223437ab69ad6aa6f3ce5"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s0/finished.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\finished.json",
+    "bytes": 476,
+    "sha256": "7c87184bd9a581e7d9b77180ab948929f1b2742830fc786f6ed93cb6bb28ff28"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s0/model_info.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\model_info.json",
+    "bytes": 82,
+    "sha256": "f166283eb005c871d74896442b7530bd46bdada79bac2f783076f2bbde8b292e"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s0/provenance.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\provenance.json",
+    "bytes": 2554,
+    "sha256": "14abfdf1052fa7af3fcd33e97d7abb18aaf1caeef3add9a38cba16b59e76d6ec"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s0/tensorboard/events.out.tfevents.1793197990.LAPTOP-D5N0J4PB.36000.0",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\tensorboard\\events.out.tfevents.1793197990.LAPTOP-D5N0J4PB.36000.0",
+    "bytes": 187233,
+    "sha256": "c78d1c3f4e08af73e78703c47027adfab550bb383d736dcdb2fb85358d5bd260"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s0/train_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\train_episodes.csv",
+    "bytes": 59396,
+    "sha256": "30609eef89253ef65147ddacb723834c90ffc3646d661829d33547ec6eef91fe"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s0/updates.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\updates.csv",
+    "bytes": 43285,
+    "sha256": "06f831a988f1d47a002b3dc940d74b8cde0ef0370f676d082946bdec2fb0aaf5"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s0/validation.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\validation.csv",
+    "bytes": 1854,
+    "sha256": "8771ca424f84909006d15073eeb003468f695db3fbcd6d078ec6506dab0c4ae6"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s0/validation_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0\\validation_episodes.csv",
+    "bytes": 50820,
+    "sha256": "d4d5e15118bb599463a6b98284f393112efcec9fdc3d52b025d9e2632064ac39"
+  },
+  {
+    "path": "SAC_最新实验/训练日志/train_sac_recovery0_s0.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0.log",
+    "bytes": 11645,
+    "sha256": "f8482799ba7d70fec35c934e732f435b5197462e909f8514ef37f69f28793239"
+  },
+  {
+    "path": "SAC_最新实验/训练日志/train_sac_recovery0_s0.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s0.log",
+    "bytes": 11645,
+    "sha256": "f8482799ba7d70fec35c934e732f435b5197462e909f8514ef37f69f28793239"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s1/config.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\config.json",
+    "bytes": 2097,
+    "sha256": "04fd5f7f227c57b6eba1706f84c11cec3d31252a8d590abd4d4ed156e8d8872a"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s1/finished.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\finished.json",
+    "bytes": 477,
+    "sha256": "ea414b5046294842bb8cc653aaffd7db476c26a35753d153856f1ef9e2d84377"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s1/model_info.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\model_info.json",
+    "bytes": 82,
+    "sha256": "f166283eb005c871d74896442b7530bd46bdada79bac2f783076f2bbde8b292e"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s1/provenance.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\provenance.json",
+    "bytes": 2554,
+    "sha256": "14abfdf1052fa7af3fcd33e97d7abb18aaf1caeef3add9a38cba16b59e76d6ec"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s1/tensorboard/events.out.tfevents.1793201353.LAPTOP-D5N0J4PB.42308.0",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\tensorboard\\events.out.tfevents.1793201353.LAPTOP-D5N0J4PB.42308.0",
+    "bytes": 187233,
+    "sha256": "c36dcc88ed6ee833d0d0bab30cce3c3a2bafb1caee0fbeacdb80f36145d7ea29"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s1/train_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\train_episodes.csv",
+    "bytes": 61241,
+    "sha256": "1d4fc5cd8060ad705400e8421b6a19ec9001ade10ae8182fb268c03b78e53d33"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s1/updates.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\updates.csv",
+    "bytes": 43364,
+    "sha256": "05643172a1365a65b0569d129ad25fa33f6617e8374d93b4e3006daac0e3380e"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s1/validation.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\validation.csv",
+    "bytes": 1833,
+    "sha256": "3f60ed7d6acf92689363746486708e129ded6a09bfd0f83fe92c91740474e8da"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s1/validation_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1\\validation_episodes.csv",
+    "bytes": 51501,
+    "sha256": "d0a12267676647862af338ba0af9bf468f7c452c3e31cc1f98f6a2cc8ac953f6"
+  },
+  {
+    "path": "SAC_最新实验/训练日志/train_sac_recovery0_s1.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1.log",
+    "bytes": 11644,
+    "sha256": "8c88cf1fd2dc0d459660961e8b9dacc07a162fbb1c072c91e214bd9bc1c8a68c"
+  },
+  {
+    "path": "SAC_最新实验/训练日志/train_sac_recovery0_s1.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s1.log",
+    "bytes": 11644,
+    "sha256": "8c88cf1fd2dc0d459660961e8b9dacc07a162fbb1c072c91e214bd9bc1c8a68c"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s2/config.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\config.json",
+    "bytes": 2097,
+    "sha256": "6602ef3e81fd2b9d412e1ba57271237912729358617213e5ed1aa7f6cbea0b52"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s2/finished.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\finished.json",
+    "bytes": 467,
+    "sha256": "fa1591f6667a6ca32889dd114c1fbb6083518e96355c18e693779434b31fe8d7"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s2/model_info.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\model_info.json",
+    "bytes": 82,
+    "sha256": "f166283eb005c871d74896442b7530bd46bdada79bac2f783076f2bbde8b292e"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s2/provenance.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\provenance.json",
+    "bytes": 2554,
+    "sha256": "14abfdf1052fa7af3fcd33e97d7abb18aaf1caeef3add9a38cba16b59e76d6ec"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s2/tensorboard/events.out.tfevents.1793209818.LAPTOP-D5N0J4PB.8968.0",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\tensorboard\\events.out.tfevents.1793209818.LAPTOP-D5N0J4PB.8968.0",
+    "bytes": 187233,
+    "sha256": "b4dbf2a211a366d9199d89c9d26d3012a4cec4fe6d49513ae68c11d5493173f1"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s2/train_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\train_episodes.csv",
+    "bytes": 60833,
+    "sha256": "5e04e56e9a7790a8e07cc83cc4e3c4b622273a8e4223106d6664bd3596320ef1"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s2/updates.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\updates.csv",
+    "bytes": 43311,
+    "sha256": "06c5c8f1fbe4399e5dd6e2c03b899cc62c16987a57e5f76d9327192e478c361c"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s2/validation.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\validation.csv",
+    "bytes": 1825,
+    "sha256": "26c32775967ac8227fb849629f25b41dab53df333b57e411e81a079f7c86959b"
+  },
+  {
+    "path": "SAC_最新实验/训练数据/train_sac_recovery0_s2/validation_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2\\validation_episodes.csv",
+    "bytes": 50836,
+    "sha256": "e56bca54bfb5d6e7bf226241d8ad102f0de2063fed0268a212d9524abf11ff19"
+  },
+  {
+    "path": "SAC_最新实验/训练日志/train_sac_recovery0_s2.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2.log",
+    "bytes": 11644,
+    "sha256": "ed356c0c33e59393ba44d492e10b84e3d619860f40b4e0c3b18854c1b1a70eb4"
+  },
+  {
+    "path": "SAC_最新实验/训练日志/train_sac_recovery0_s2.log",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\train_sac_recovery0_s2.log",
+    "bytes": 11644,
+    "sha256": "ed356c0c33e59393ba44d492e10b84e3d619860f40b4e0c3b18854c1b1a70eb4"
+  },
+  {
+    "path": "RPPO_终点辅助控制/训练数据/state_direct_finish_s0/best_metrics.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\best_metrics.json",
+    "bytes": 528,
+    "sha256": "6ed113aa64ae241158ea91c1111364d266bfa444678480d54f4ba22bf51dc8e0"
+  },
+  {
+    "path": "RPPO_终点辅助控制/训练数据/state_direct_finish_s0/config.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\config.json",
+    "bytes": 2091,
+    "sha256": "c92dff419f834233349c9e2edbcdbd26a3da54a82b9be3578601f525ef64abc3"
+  },
+  {
+    "path": "RPPO_终点辅助控制/训练数据/state_direct_finish_s0/derivation.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\derivation.json",
+    "bytes": 349,
+    "sha256": "467bc6ff98d93672ca9cf1fff50c78858139370b093c0937a7631fab56bd0cf1"
+  },
+  {
+    "path": "RPPO_终点辅助控制/训练数据/state_direct_finish_s0/finished.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\finished.json",
+    "bytes": 118,
+    "sha256": "74b261523640a902a294b6c08d618aab9a029b04ca2b0295d3f40c050df0a46f"
+  },
+  {
+    "path": "RPPO_终点辅助控制/训练数据/state_direct_finish_s0/provenance.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\provenance.json",
+    "bytes": 3994,
+    "sha256": "807326f5996ad59f2f7b9962830d221fd5514fcd42fca16b05f2849fd90f431c"
+  },
+  {
+    "path": "RPPO_终点辅助控制/训练数据/state_direct_finish_s0/validation.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\validation.csv",
+    "bytes": 368,
+    "sha256": "f4a1f6db1b87031307d455af82ce1f3f111e05614164d032c3d7111e17e021e2"
+  },
+  {
+    "path": "RPPO_终点辅助控制/训练数据/state_direct_finish_s0/validation_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_finish_s0\\validation_episodes.csv",
+    "bytes": 817,
+    "sha256": "53acbdb18140dd9e0c77ac81148e544780e3690d8bc3660947cbc5806b2428b1"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/best_metrics.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\best_metrics.json",
+    "bytes": 488,
+    "sha256": "5914eda2d201badee82f192751d2b761b41ece4929f731113b5fde60c9717008"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/config.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\config.json",
+    "bytes": 1967,
+    "sha256": "425281cb27cf0cabddd6ce3639230346924ce67cc8f75f9e273216dfffb261e3"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/finished.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\finished.json",
+    "bytes": 196,
+    "sha256": "77259429cc69c20fa573313f92c763dddfbc0758e596526089b9595bb455908c"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/model_info.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\model_info.json",
+    "bytes": 305,
+    "sha256": "7fc13193e5b4a81a48a4a6bf9066b1cf1cc19b1282255034d25ea160601833fc"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/provenance.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\provenance.json",
+    "bytes": 3774,
+    "sha256": "4bebe1036189946afa6dd174390aa807f90be550e159ad11a264b050fde10515"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/best_metrics.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\best_metrics.json",
+    "bytes": 512,
+    "sha256": "0f3dec595abc22e3781a910bfc45bd5492ec6cff8f43496148e8f1f201793653"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/config.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\config.json",
+    "bytes": 2065,
+    "sha256": "29c17d7884a4a7dbcd57fee3f26f2018218b6b9783609566402b317486ada9df"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/finished.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\finished.json",
+    "bytes": 209,
+    "sha256": "03c2c334acb2561a3d066a9fe00728ef82085c6bc3d7d439ebaf0eb1d2c93d13"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/invocation.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\invocation.json",
+    "bytes": 1089,
+    "sha256": "380386fe08b4e3d2114cfa046e4229366ea1af851be59acb2e7a1f330d65df73"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/model_info.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\model_info.json",
+    "bytes": 338,
+    "sha256": "0e9eedb89ac0516bbf98799bc9288e702b3dc64930b0f9132b2c5787f10a6d24"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/provenance.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\provenance.json",
+    "bytes": 3882,
+    "sha256": "ce0bca2b9087a0de59e181d1204814851e6c8ca1454cc1c0a09bdb293cfc3363"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/train_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\train_episodes.csv",
+    "bytes": 95428,
+    "sha256": "281078aa26386cc49088474563e533e4f99b5ce21c42acd21dd72b57ecb483a9"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/updates.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\updates.csv",
+    "bytes": 22849,
+    "sha256": "75f23ea22a92955c0d67f1b9c440d67912a3c870cbb9447f3b7614db1e8769f2"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/validation.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\validation.csv",
+    "bytes": 3242,
+    "sha256": "cfbd284c3e743e6afb6f1b071fb4f6427e68f3ee679e093a16c983c0fbcd883d"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/segment_1/validation_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\validation_episodes.csv",
+    "bytes": 14728,
+    "sha256": "8d78d9d0b2d06ca07aa7afed5a5af9459c440d39a6d1575487a1f56f13053441"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/train_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\train_episodes.csv",
+    "bytes": 30825,
+    "sha256": "ee0c69b2527b50a84f5410363c5e10b74e71457bc1c6b8b5b42e9f5ca0a1a872"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/updates.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\updates.csv",
+    "bytes": 7600,
+    "sha256": "3607747de0dd8e6ef59d5687e0706eb2e675eeda6d583dd696f9c9f2ef320155"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/validation.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\validation.csv",
+    "bytes": 1148,
+    "sha256": "55bab590013f87d1c3e72a97e45ba91feb0fa0786ab6a920502cc5b49f3ec898"
+  },
+  {
+    "path": "RPPO_终点辅助控制/前序训练数据/state_direct_s0/validation_episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\validation_episodes.csv",
+    "bytes": 6005,
+    "sha256": "a4ff2919a366eb2f858e56b7baf75bbc41c24b8f331ebb0bbcd29bca5a71a157"
+  },
+  {
+    "path": "RPPO_终点辅助控制/历史测试数据/test/state_direct_finish_s0/episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\test\\state_direct_finish_s0\\episodes.csv",
+    "bytes": 6882,
+    "sha256": "910293ff28b0b55430cbc91f482ee52cdf374c5c9108514395d78f3b7ec801c1"
+  },
+  {
+    "path": "RPPO_终点辅助控制/历史测试数据/test/state_direct_finish_s0/summary.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\test\\state_direct_finish_s0\\summary.json",
+    "bytes": 3321,
+    "sha256": "b88eee294b13878fb42eb9ba431ef25a63e9de7a4c6a3404b949a76f9ba1e0e7"
+  },
+  {
+    "path": "RPPO_终点辅助控制/历史测试数据/confirmation/state_direct_finish_s0_0/episodes.csv",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\confirmation\\state_direct_finish_s0_0\\episodes.csv",
+    "bytes": 6806,
+    "sha256": "c521ea6399d2216fea0a9a251167e35217bb77830805e7c049376308df367074"
+  },
+  {
+    "path": "RPPO_终点辅助控制/历史测试数据/confirmation/state_direct_finish_s0_0/summary.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\confirmation\\state_direct_finish_s0_0\\summary.json",
+    "bytes": 3320,
+    "sha256": "230e50f8d49b20a98d852ea51c0f0168014ef665f986afdf1ee62e685b671e89"
+  },
+  {
+    "path": "RPPO_终点辅助控制/实验说明/finish_assist_candidate_card.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\delivery\\finish_assist_candidate_card.json",
+    "bytes": 719,
+    "sha256": "ec88533da98bd4b71b69f4c08b8a7d4672e5f2d1b3dca6d02a92034214627625"
+  },
+  {
+    "path": "RPPO_终点辅助控制/实验说明/training_summary.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\delivery\\training_summary.json",
+    "bytes": 6624,
+    "sha256": "696c72906c00b4ed637811272bedd87d8ec9c4c607501da7553652873aed37bf"
+  },
+  {
+    "path": "RPPO_终点辅助控制/实验说明/paired_comparison.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_recurrent_ppo_20261020\\delivery\\paired_comparison.json",
+    "bytes": 159,
+    "sha256": "bd2fba754817c0f30ebfbdfd851e9fc79128c33fb2ee9e29b56c55dc284a1bf4"
+  },
+  {
+    "path": "PPO_最新实验/统一测试_20261102_300赛道/train_ppo_recovery0_s0/episodes.csv",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_ppo_recovery0_s0\\episodes.csv",
+    "bytes": 22418,
+    "sha256": "ab8e8cf4dd7b1bfac6f1854008ca8c44d7f112b15ca8a671fd9fdba76b16b5b3"
+  },
+  {
+    "path": "PPO_最新实验/统一测试_20261102_300赛道/train_ppo_recovery0_s0/summary.json",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_ppo_recovery0_s0\\summary.json",
+    "bytes": 531,
+    "sha256": "dc4d7d0485a9d601e74456ded5a427498d6796f5b20b96df0b193a7c8b70152c"
+  },
+  {
+    "path": "PPO_最新实验/统一测试_20261102_300赛道/train_ppo_recovery0_s1/episodes.csv",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_ppo_recovery0_s1\\episodes.csv",
+    "bytes": 21747,
+    "sha256": "9d0ba8162fadc65b89608f7b8794a319f3b3e6071090cab1717d495ec3803416"
+  },
+  {
+    "path": "PPO_最新实验/统一测试_20261102_300赛道/train_ppo_recovery0_s1/summary.json",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_ppo_recovery0_s1\\summary.json",
+    "bytes": 520,
+    "sha256": "36c2a1ebffec81bd88defe0b3d59b5996b6c614736a87b59f87f9a5f568aa88f"
+  },
+  {
+    "path": "PPO_最新实验/统一测试_20261102_300赛道/train_ppo_recovery0_s2/episodes.csv",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_ppo_recovery0_s2\\episodes.csv",
+    "bytes": 22563,
+    "sha256": "1c65598bae74718806aa0c21e89a19daf8afc5a306340026e132165258bf2d84"
+  },
+  {
+    "path": "PPO_最新实验/统一测试_20261102_300赛道/train_ppo_recovery0_s2/summary.json",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_ppo_recovery0_s2\\summary.json",
+    "bytes": 542,
+    "sha256": "2c1d1d3cbf10ff95ce0961c6ffab4134b42c48ee41a2337e5141e2762d798059"
+  },
+  {
+    "path": "SAC_最新实验/统一测试_20261102_300赛道/train_sac_recovery0_s0/episodes.csv",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_sac_recovery0_s0\\episodes.csv",
+    "bytes": 19028,
+    "sha256": "8babc6857f0810439098a3019faf3b52099ca7b228e39e124de553d3dc0bbc6b"
+  },
+  {
+    "path": "SAC_最新实验/统一测试_20261102_300赛道/train_sac_recovery0_s0/summary.json",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_sac_recovery0_s0\\summary.json",
+    "bytes": 541,
+    "sha256": "11310993e1a19d932c9e1007e6202eac16c945c9bea453e05f09bede50a262e5"
+  },
+  {
+    "path": "SAC_最新实验/统一测试_20261102_300赛道/train_sac_recovery0_s1/episodes.csv",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_sac_recovery0_s1\\episodes.csv",
+    "bytes": 19929,
+    "sha256": "930c835ccd57907250cfd3c2701d91ff4fd2dee31fdee44808df8f4cf04f6877"
+  },
+  {
+    "path": "SAC_最新实验/统一测试_20261102_300赛道/train_sac_recovery0_s1/summary.json",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_sac_recovery0_s1\\summary.json",
+    "bytes": 542,
+    "sha256": "e2305dd0b4c8b941f9c8dca0c2409c420d60b5b029f6f6857d8157ac74d17e87"
+  },
+  {
+    "path": "SAC_最新实验/统一测试_20261102_300赛道/train_sac_recovery0_s2/episodes.csv",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_sac_recovery0_s2\\episodes.csv",
+    "bytes": 19151,
+    "sha256": "997af99f1d27d2f4502f005ba1ac38204a961eafb6d8301002c8ee729fd5bfa1"
+  },
+  {
+    "path": "SAC_最新实验/统一测试_20261102_300赛道/train_sac_recovery0_s2/summary.json",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\train_sac_recovery0_s2\\summary.json",
+    "bytes": 540,
+    "sha256": "50079c76fe596f97c5fcc7a3a69f82df44896038539b605489e5b191ad4f239f"
+  },
+  {
+    "path": "RPPO_终点辅助控制/统一测试_20261102_300赛道/finish/episodes.csv",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\finish\\episodes.csv",
+    "bytes": 21175,
+    "sha256": "78ece8f4a7b28359ab318e740090f42705a706965051525be5681629d476126c"
+  },
+  {
+    "path": "RPPO_终点辅助控制/统一测试_20261102_300赛道/finish/summary.json",
+    "source": "D:\\Documents\\ChatGPT\\强化学习课程项目\\实验对比汇总_20261102\\evaluation\\finish\\summary.json",
+    "bytes": 516,
+    "sha256": "1f686d79b71d0aff5e55d5c73e943bd9fa45b8538ac9c3215b4a3ac946cd919d"
+  },
+  {
+    "path": "实验批次记录/plan.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\plan.json",
+    "bytes": 23092,
+    "sha256": "206804c82a1dd97f531a48d5d3ac2e3f0db4f535685799759823961b768d2c17"
+  },
+  {
+    "path": "实验批次记录/commands.jsonl",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\commands.jsonl",
+    "bytes": 16495,
+    "sha256": "9b75a170ec629476a5d70257b7d7d71591a7a7f8b7b87a918817ea0a72a5fe79"
+  },
+  {
+    "path": "实验批次记录/status.json",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\status.json",
+    "bytes": 22,
+    "sha256": "31464a8334b79483c746c7607af2fc66b1046fdf8f66ecf21d572fc05c5e5ab7"
+  },
+  {
+    "path": "实验批次记录/recovery.jsonl",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\recovery.jsonl",
+    "bytes": 277,
+    "sha256": "2fd083de68855677403ddc667b4fccc30b5ed2b9d833d050c4db3a5bcc780771"
+  },
+  {
+    "path": "实验批次记录/实验说明.txt",
+    "source": "D:\\Desktop\\RL总结\\RL_project\\runs_unified_20261028\\实验说明.txt",
+    "bytes": 1640,
+    "sha256": "2f83461eeb0d9d8e944e1b2094e03d3a0e10ea0b231f5b27ce24b7d1d2724163"
+  }
+]

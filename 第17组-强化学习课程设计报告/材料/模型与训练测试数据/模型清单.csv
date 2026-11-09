@@ -1,0 +1,15 @@
+﻿algorithm,seed,role,steps,path,source,sha256
+PPO,0,best,32768,PPO_最新实验/模型/seed0/best.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_ppo_recovery0_s0\best.pt,ea5acaf0b65d37902b1173e67ad3f2cd6c49ccbd99d717c88850ea7801d27ff4
+PPO,0,last,196608,PPO_最新实验/模型/seed0/last.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_ppo_recovery0_s0\last.pt,7b16496a1c9920fc91dc9253cb63af772bac7b10bd49996e56e963fc110c3964
+PPO,1,best,98304,PPO_最新实验/模型/seed1/best.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_ppo_recovery0_s1\best.pt,166d955fca4626109a01289762d5945a654dbfbfdf1939f0abb62bf3c20d3429
+PPO,1,last,196608,PPO_最新实验/模型/seed1/last.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_ppo_recovery0_s1\last.pt,5a9bee27292592e17ef44a72314db4e527003ef29cbe1d97584120b5b9d37be9
+PPO,2,best,65536,PPO_最新实验/模型/seed2/best.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_ppo_recovery0_s2\best.pt,c620f4b0056d213b2d4b6bb1746a6c8d353da060b288ef4c066bbce2a070056e
+PPO,2,last,196608,PPO_最新实验/模型/seed2/last.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_ppo_recovery0_s2\last.pt,9b86ef34b2d1d6c90df1c04550ed3424c3237fb725265a90329bd703d5502c40
+SAC,0,best,163840,SAC_最新实验/模型/seed0/best.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_sac_recovery0_s0\best.pt,55194a137629b378d2cc4f09df6ac294f94ed48b282ea6ba809767c6edec5c89
+SAC,0,last,196608,SAC_最新实验/模型/seed0/last.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_sac_recovery0_s0\last.pt,02ed9c5ecd50e0ffa9d92b3931394991e9f1345068e32fd5ff3d445366717ccb
+SAC,1,best,98304,SAC_最新实验/模型/seed1/best.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_sac_recovery0_s1\best.pt,0519bccc5f0b2d18ec925272963b720cd131e30bc1c5e27ae3572cad2dc7dbc3
+SAC,1,last,196608,SAC_最新实验/模型/seed1/last.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_sac_recovery0_s1\last.pt,698a0219783f2cf06419f5ff9b45a54f14b07f7806112586e275d08156d49a79
+SAC,2,best,131072,SAC_最新实验/模型/seed2/best.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_sac_recovery0_s2\best.pt,1f92f02ae23398b7f2b1c48576bae16da15123d3ef5d6439c52291ee544dd9bd
+SAC,2,last,196608,SAC_最新实验/模型/seed2/last.pt,D:\Desktop\RL总结\RL_project\runs_unified_20261028\train_sac_recovery0_s2\last.pt,3687423110d9562417ec9eb8f9104e4bf11af741ec4f327666a50f7311128358
+RPPO_finish,0,best,327680,RPPO_终点辅助控制/模型/seed0/best.pt,D:\Desktop\RL总结\RL_project\runs_recurrent_ppo_20261020\training\state_direct_finish_s0\best.pt,17168a391643dae752b3d1e2a044e50e9d6db2a05537c32fd73f05c275e7d222
+RPPO_finish,0,last,327680,RPPO_终点辅助控制/模型/seed0/last.pt,D:\Desktop\RL总结\RL_project\runs_recurrent_ppo_20261020\training\state_direct_finish_s0\last.pt,04c561b97667bc6196fdaa04ff493645473a67fe704bc17a47b3e45c8721928b

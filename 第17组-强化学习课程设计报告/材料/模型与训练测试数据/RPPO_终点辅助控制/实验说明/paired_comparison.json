@@ -1,0 +1,6 @@
+{
+  "common_success_tracks": 79,
+  "mean_model_minus_controller_seconds": -3.361265822784811,
+  "model_only_success": 18,
+  "controller_only_success": 3
+}

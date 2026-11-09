@@ -1,0 +1,218 @@
+[
+  {
+    "name": "adaptive_v2_s0",
+    "decisions": 196608,
+    "training_seconds": 587.1316690004896,
+    "best_validation": {
+      "steps": 180224,
+      "episodes": 30,
+      "mean_return": 908.355878523493,
+      "std_return": 12.9684950347991,
+      "median_return": 909.1199275988881,
+      "min_return": 880.9777777777597,
+      "max_return": 932.699999999987,
+      "completion_rate": 1.0,
+      "mean_coverage": 0.9929225451901739,
+      "score_ge_900_rate": 0.7333333333333333,
+      "mean_finish_seconds": 16.913333333333334,
+      "median_finish_seconds": 16.83,
+      "penalized_seconds": 16.913333333333334,
+      "completion_wilson95": [
+        0.8864829086095221,
+        1.0
+      ]
+    }
+  },
+  {
+    "name": "pixels_direct_s0",
+    "decisions": 196608,
+    "training_seconds": 2303.1285629984923,
+    "best_validation": {
+      "steps": 163840,
+      "episodes": 10,
+      "mean_return": 365.22480125231897,
+      "std_return": 93.8082395846786,
+      "median_return": 372.2277424483176,
+      "min_return": 240.83601286172484,
+      "max_return": 519.3548387096674,
+      "completion_rate": 0.0,
+      "mean_coverage": 0.4745948012523331,
+      "score_ge_900_rate": 0.0,
+      "mean_finish_seconds": null,
+      "median_finish_seconds": null,
+      "penalized_seconds": 40.0,
+      "completion_wilson95": [
+        0.0,
+        0.2775401687666166
+      ]
+    }
+  },
+  {
+    "name": "residual_h256_s0",
+    "decisions": 196608,
+    "training_seconds": 836.4700467993971,
+    "best_validation": {
+      "steps": 147456,
+      "episodes": 30,
+      "mean_return": 853.0441430392548,
+      "std_return": 207.1429543492011,
+      "median_return": 912.3499999999854,
+      "min_return": 26.811594202900977,
+      "max_return": 932.2999999999869,
+      "completion_rate": 0.9,
+      "mean_coverage": 0.9401008097059349,
+      "score_ge_900_rate": 0.7666666666666667,
+      "mean_finish_seconds": 17.123703703703708,
+      "median_finish_seconds": 17.22,
+      "penalized_seconds": 19.411333333333335,
+      "completion_wilson95": [
+        0.7437855868473339,
+        0.9654007400402839
+      ]
+    }
+  },
+  {
+    "name": "residual_s0",
+    "decisions": 196608,
+    "training_seconds": 236.60181830171496,
+    "best_validation": {
+      "steps": 180224,
+      "episodes": 30,
+      "mean_return": 836.8449962975199,
+      "std_return": 201.64181734076806,
+      "median_return": 912.226950354597,
+      "min_return": 26.811594202900977,
+      "max_return": 932.2999999999869,
+      "completion_rate": 0.8333333333333334,
+      "mean_coverage": 0.9239916629642003,
+      "score_ge_900_rate": 0.7,
+      "mean_finish_seconds": 16.9152,
+      "median_finish_seconds": 16.7,
+      "penalized_seconds": 20.762666666666668,
+      "completion_wilson95": [
+        0.6643529481431982,
+        0.9266356575964831
+      ]
+    }
+  },
+  {
+    "name": "residual_s1",
+    "decisions": 196608,
+    "training_seconds": 275.76794179854915,
+    "best_validation": {
+      "steps": 49152,
+      "episodes": 30,
+      "mean_return": 880.4492987178336,
+      "std_return": 131.3145340477558,
+      "median_return": 912.8499999999831,
+      "min_return": 218.8405797101406,
+      "max_return": 931.7999999999869,
+      "completion_rate": 0.9333333333333333,
+      "mean_coverage": 0.9672759653845147,
+      "score_ge_900_rate": 0.7666666666666667,
+      "mean_finish_seconds": 17.177142857142858,
+      "median_finish_seconds": 17.08,
+      "penalized_seconds": 18.698666666666668,
+      "completion_wilson95": [
+        0.7867618227892791,
+        0.9815233646723066
+      ]
+    }
+  },
+  {
+    "name": "residual_split_s0",
+    "decisions": 196608,
+    "training_seconds": 473.8306306996383,
+    "best_validation": {
+      "steps": 180224,
+      "episodes": 30,
+      "mean_return": 887.921966269436,
+      "std_return": 103.73025031752734,
+      "median_return": 912.6499999999879,
+      "min_return": 350.98039215684736,
+      "max_return": 931.2999999999868,
+      "completion_rate": 0.9,
+      "mean_coverage": 0.9754386329361169,
+      "score_ge_900_rate": 0.8333333333333334,
+      "mean_finish_seconds": 17.225925925925925,
+      "median_finish_seconds": 17.18,
+      "penalized_seconds": 19.503333333333334,
+      "completion_wilson95": [
+        0.7437855868473339,
+        0.9654007400402839
+      ]
+    }
+  },
+  {
+    "name": "state_direct_finish_s0",
+    "decisions": 327680,
+    "training_seconds": 421.53775559947826,
+    "best_validation": {
+      "steps": 327680,
+      "episodes": 10,
+      "mean_return": 922.6275481363582,
+      "std_return": 9.052581548650123,
+      "median_return": 924.2499999999902,
+      "min_return": 907.5297297297135,
+      "max_return": 935.5999999999849,
+      "completion_rate": 1.0,
+      "mean_coverage": 0.9948275481363715,
+      "score_ge_900_rate": 1.0,
+      "mean_finish_seconds": 14.440000000000001,
+      "median_finish_seconds": 14.719999999999999,
+      "penalized_seconds": 14.440000000000001,
+      "completion_wilson95": [
+        0.7224598312333834,
+        1.0
+      ]
+    }
+  },
+  {
+    "name": "state_direct_s0",
+    "decisions": 393216,
+    "training_seconds": 564.6013868004084,
+    "best_validation": {
+      "steps": 327680,
+      "episodes": 10,
+      "mean_return": 926.487548136359,
+      "std_return": 9.28330621575018,
+      "median_return": 927.599999999991,
+      "min_return": 910.7297297297142,
+      "max_return": 939.0999999999857,
+      "completion_rate": 1.0,
+      "mean_coverage": 0.9948275481363715,
+      "score_ge_900_rate": 1.0,
+      "mean_finish_seconds": 13.668000000000001,
+      "median_finish_seconds": 13.86,
+      "penalized_seconds": 13.668000000000001,
+      "completion_wilson95": [
+        0.7224598312333834,
+        1.0
+      ]
+    }
+  },
+  {
+    "name": "state_direct_s1",
+    "decisions": 393216,
+    "training_seconds": 910.3858618994709,
+    "best_validation": {
+      "steps": 0,
+      "episodes": 10,
+      "mean_return": -56.15734558248759,
+      "std_return": 4.615097079268858,
+      "median_return": -57.14330609679481,
+      "min_return": -63.09131832797458,
+      "max_return": -47.65209125475269,
+      "completion_rate": 0.0,
+      "mean_coverage": 0.07132265441751265,
+      "score_ge_900_rate": 0.0,
+      "mean_finish_seconds": null,
+      "median_finish_seconds": null,
+      "penalized_seconds": 40.0,
+      "completion_wilson95": [
+        0.0,
+        0.2775401687666166
+      ]
+    }
+  }
+]

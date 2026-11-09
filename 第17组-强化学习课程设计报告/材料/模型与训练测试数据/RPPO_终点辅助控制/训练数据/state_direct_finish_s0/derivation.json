@@ -1,0 +1,6 @@
+{
+  "source_checkpoint": "D:\\Desktop\\RL_project\\runs_recurrent_ppo_20261020\\training\\state_direct_s0\\segment_1\\best.pt",
+  "source_sha256": "d0a57ff11cc6208a8ceca1a75cc0fb7a9d1c9cbb519fb2c6c7156c24eca6968f",
+  "additional_training_steps": 0,
+  "change": "Physical finish alignment controller; identical learned weights and finish gate"
+}

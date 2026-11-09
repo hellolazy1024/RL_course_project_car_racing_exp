@@ -1,0 +1,18 @@
+{
+  "steps": 196608,
+  "frames": 785376,
+  "train_seconds": 717.1862426999869,
+  "initial_steps": 0,
+  "added_steps": 196608,
+  "segment_train_seconds": 717.1862426999869,
+  "evaluation_seconds": 297.7106058999925,
+  "session_wall_seconds": 1016.9676921999926,
+  "best_validation_return": [
+    1.0,
+    -15.893200000000002,
+    0.9996451691965866,
+    920.1791691965741
+  ],
+  "total_updates": 47903,
+  "status": "completed_budget_not_proof_of_convergence"
+}

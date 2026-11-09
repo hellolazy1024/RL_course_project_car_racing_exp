@@ -1,0 +1,5 @@
+{
+  "architecture": "baseline",
+  "parameters": 64262,
+  "context_length": 1
+}

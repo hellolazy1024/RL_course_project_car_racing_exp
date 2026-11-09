@@ -1,0 +1,39 @@
+{
+  "platform": "Windows-10-10.0.22631-SP0",
+  "python": "3.11.16",
+  "torch": "2.5.1+cu121",
+  "cuda_build": "12.1",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU, 546.30, 6144 MiB",
+  "packages": {
+    "gymnasium": "1.1.1",
+    "box2d-py": "2.3.8",
+    "numpy": "1.26.4",
+    "opencv-python-headless": "4.10.0.84",
+    "pygame": "2.6.1"
+  },
+  "source_sha256": {
+    "racing\\__init__.py": "6eb7f406f766141f30490f05ee86c1bbeef94f0386fd7c0bbd85a7b1d33ede35",
+    "racing\\benchmark.py": "787bed479bda781546568c970858918308cf1f339ab5cf90ddff10e5928fb911",
+    "racing\\envs.py": "2f60bcd4e386475bd31e4def03e123f2b6b43aed9c338c5b94469e8daf1e4d9d",
+    "racing\\evaluate.py": "7a683e80a1017109b75cc1f6173ad14915e2b28b2c1edbb6800e3e3255e004b9",
+    "racing\\grpo.py": "cc319ca8f13b1151251f852412eba46aab7943c3f35662f7f18024e2628f3a9a",
+    "racing\\grpo_c.py": "5f88597f6b4d18d38bb582ff3aabf64027d638fd7d5784f7ae47f443c182779b",
+    "racing\\grpo_c_reference.py": "33a27e75e12fbcdba224a1d11f602710b199f20e8902a6eca7cc47021156b76e",
+    "racing\\kl_experiment.py": "d60b25b8c8598333021cc5707b5185f26809a0e720a7b3f47ca086dc4f4a0dff",
+    "racing\\model.py": "20d5551048b0e89eb3784931330a95d07790762123836f79ddc6786fbe80ecff",
+    "racing\\recurrent_env.py": "8262c22edac9bd72069321bfe46b83d21349710f70d1868b0cc729f55471f605",
+    "racing\\recurrent_experiment.py": "ca769c864737a511ca6b88264ce78594f57fe75f3f64d3177db9f6b437691164",
+    "racing\\recurrent_ppo.py": "8eed45344bf74abc994bad5201a28a5bfa575670eb36b70ec229d08add4b5cb2",
+    "racing\\report.py": "d560b725df83231a1922d76fe15240b72c9b4076d31ef66a617c4b62393cf20e",
+    "racing\\reproduce_recurrent.py": "57a0c93e9340673ff2e1e7d3e18698599046e09edc5ab5e7de5e9472a394208a",
+    "racing\\road_state.py": "72fffa4fef6646f26be32dc9377c0c2fed1c8c2132bd781523291be13ded7204",
+    "racing\\sac.py": "f69a2e446bae6c47ffb2d37450f1b06a7e67dfcee5c63dd6110c1ad9757bcceb",
+    "racing\\sac_experiment.py": "ecc1c081fe159c30ecbaff796d74c90057939d5ad7668743c6d04ab3eb9ca353",
+    "racing\\sac_networks.py": "424196ec38aaab9d1047c61b925bc447b52f55175d0ec1a22ae4ac2e47ca9d86",
+    "racing\\suite.py": "140998a5bdc7f32f6d7901e161891d3c6bcc323b9ae2bf638f0e5e4ce7e15f47",
+    "racing\\train.py": "ddfd8686de64b7e0ebe96673fea9a0c92af12811fb566244470fb615516d38a1",
+    "racing\\utils.py": "dfcdb2c219750249b3fc62ac5509fd20803f41dcdd175d7949b45bcf21872210",
+    "racing\\video_grid.py": "ef42b97ac5036723a8fd010247cb24f9ff72802e75ba66f1016cc1f3791df0a5"
+  }
+}

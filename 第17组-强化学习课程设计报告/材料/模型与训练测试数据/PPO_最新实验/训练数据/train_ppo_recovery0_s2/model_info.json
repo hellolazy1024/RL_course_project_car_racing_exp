@@ -1,0 +1,17 @@
+{
+  "parameters": 21381,
+  "hidden_size": 128,
+  "sequence_length": 32,
+  "privileged_state": true,
+  "env_config": {
+    "recurrent": true,
+    "observation_mode": "state",
+    "control_mode": "adaptive",
+    "speed_scale": 2.2,
+    "controller_profile": "v2",
+    "finish_assist": false,
+    "offroad_assist": false,
+    "residual_scale": 0.2,
+    "completion_mode": "lap95"
+  }
+}
